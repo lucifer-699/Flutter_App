@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
-import 'package:weather_app/model/weather_model.dart';
-import 'package:weather_app/services/api.dart';
+import 'package:weatherly/model/weather_model.dart';
+import 'package:weatherly/services/api.dart';
 
 class Homepage extends StatefulWidget {
   Homepage({super.key});

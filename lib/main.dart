@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:weather_app/view/animated_splash.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:weatherly/view/animated_splash.dart';
 
 void main() async {
   runApp(ProviderScope(child: Home()));

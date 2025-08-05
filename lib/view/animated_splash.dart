@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:weather_app/view/homepage.dart';
+import 'package:weatherly/view/homepage.dart';
 
 class Splashscreen extends StatelessWidget {
   const Splashscreen({super.key});

@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:weather_app/constants/constants.dart';
-import 'package:weather_app/model/weather_model.dart';
+import 'package:weatherly/constants/constants.dart';
+import 'package:weatherly/model/weather_model.dart';
 
 class WeatherApi {
   final String currentWeather = "http://api.weatherapi.com/v1/current.json";
@@ -23,8 +23,8 @@ class WeatherApi {
 
 //  Below dio library is used to fetch the data
 // import 'package:dio/dio.dart';
-// import 'package:weather_app/constants/constants.dart';
-// import 'package:weather_app/model/weather_model.dart';
+// import 'package:weatherly/constants/constants.dart';
+// import 'package:weatherly/model/weather_model.dart';
 
 // class WeatherApi {
 //   final Dio dio = Dio();
